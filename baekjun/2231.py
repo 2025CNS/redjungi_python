@@ -1,4 +1,4 @@
-?n = int(input())
+n = int(input())
 l = n-len(str(n))*9
 if l < 0:
   l = 0
