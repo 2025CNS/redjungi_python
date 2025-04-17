@@ -10,10 +10,10 @@ for _ in range(t):
 #   for k in range(1):
 #     print(n[i][k],n[i][k+1])
 for i in range(t):
-    cnt = 0
+    cnt = 1
     for j in range(t):
         if n[i][0] < n[j][0] and n[i][1] < n[j][1]:
             cnt += 1
-    rank.append(cnt+1)
+    rank.append(cnt)
 
 print(*rank)
