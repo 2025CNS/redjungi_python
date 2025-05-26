@@ -2,7 +2,6 @@ n = int(input())
 count = 0
 i = 665
 while 1:
-  i = int(i)
   i += 1
   if "666" in str(i):
     count += 1
